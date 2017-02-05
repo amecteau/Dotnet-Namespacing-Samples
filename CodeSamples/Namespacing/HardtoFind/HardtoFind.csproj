@@ -40,15 +40,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IBoat.cs" />
+    <Compile Include="Interfaces\IBusinessObject.cs" />
+    <Compile Include="Interfaces\ICar.cs" />
+    <Compile Include="Interfaces\IDataAccess.cs" />
+    <Compile Include="Interfaces\IModel.cs" />
+    <Compile Include="Interfaces\IPayment.cs" />
+    <Compile Include="Shared\BaseBusinessObject.cs" />
+    <Compile Include="BusinessObjects\BoatProcessorBusinessObject.cs" />
+    <Compile Include="BusinessObjects\CarProcessorBusinessObject.cs" />
+    <Compile Include="BusinessObjects\PaymentProcessorBusinessObject.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Shared\BaseDataAccess.cs" />
+    <Compile Include="DataAccess\BoatDataAccess.cs" />
+    <Compile Include="DataAccess\CarDataAccess.cs" />
+    <Compile Include="DataAccess\PaymentDataAccess.cs" />
+    <Compile Include="Shared\BaseModel.cs" />
+    <Compile Include="Models\BoatModel.cs" />
+    <Compile Include="Models\CarModel.cs" />
+    <Compile Include="Models\PaymentModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BusinessObjects\" />
-    <Folder Include="DataAccess\" />
-    <Folder Include="Models\" />
-    <Folder Include="Shared\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
