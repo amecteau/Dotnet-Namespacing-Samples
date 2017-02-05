@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardtoFind", "CSharpSamples\HardtoFind.csproj", "{B9D151A3-B976-4874-A562-5A4DE9074B9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardtoFind", "HardtoFind\HardtoFind.csproj", "{B9D151A3-B976-4874-A562-5A4DE9074B9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasytoFind", "CSharpEasytoFind\EasytoFind.csproj", "{99425165-EBBD-426C-8C0D-02F01E2CA582}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasytoFind", "EasytoFind\EasytoFind.csproj", "{99425165-EBBD-426C-8C0D-02F01E2CA582}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
